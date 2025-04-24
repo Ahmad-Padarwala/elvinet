@@ -5,6 +5,7 @@ import AboutSection from './AboutSection'
 import Gallery from './Gallery'
 import DetailSection from './DetailSection'
 import Footer from '../../components/Footer'
+import ContactSection from './ContactSection'
 
 const index = () => {
     return (
@@ -16,7 +17,8 @@ const index = () => {
             <AboutSection />
             <Gallery />
             <DetailSection />
-            <Footer/>
+            <ContactSection />
+            <Footer />
         </>
     )
 }
