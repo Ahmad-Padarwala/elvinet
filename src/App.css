@@ -22,15 +22,19 @@ body {
 }
 
 .contact-section {
-  background-color: #D0AA87;
-  background-image: url("./assets/image/contactimage.png");
-  background-position: right calc(0% - 450px) center;
+  background: linear-gradient(to right, #D0AA87 30%, transparent 70%),
+    url("./assets/image/contactimage.png");
+  background-position: right center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .input-shadow {
   box-shadow: 5px 5px 0px 0px rgba(167, 139, 114, 0.48);
   -webkit-box-shadow: 5px 5px 0px 0px rgba(167, 139, 114, 0.48);
   -moz-box-shadow: 5px 5px 0px 0px rgba(167, 139, 114, 0.48);
+}
+
+.nav-links.active {
+  font-weight: 500;
 }

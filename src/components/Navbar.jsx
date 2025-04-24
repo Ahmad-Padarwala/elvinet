@@ -24,11 +24,11 @@ const Navbar = () => {
 
                 {/* Nav Links */}
                 <div className={`flex-col md:flex-row md:flex items-center gap-6 absolute md:static top-20 left-0 w-full md:w-auto bg-white md:bg-transparent px-4 md:px-0 py-4 md:py-0 z-50 transition-all duration-300 ease-in-out ${menuOpen ? 'flex' : 'hidden'}`}>
-                    <NavLink to="/" className="text-black hover:text-gray-600" onClick={() => setMenuOpen(false)}>Home</NavLink>
-                    <NavLink to="/product" className="text-black hover:text-gray-600" onClick={() => setMenuOpen(false)}>Products</NavLink>
-                    <NavLink to="/about" className="text-black hover:text-gray-600" onClick={() => setMenuOpen(false)}>About Us</NavLink>
-                    <NavLink to="/faqs" className="text-black hover:text-gray-600" onClick={() => setMenuOpen(false)}>FAQ</NavLink>
-                    <NavLink to="/contact" className="text-black hover:text-gray-600" onClick={() => setMenuOpen(false)}>Contact</NavLink>
+                    <NavLink to="/" className="nav-links text-black hover:text-gray-600" onClick={() => setMenuOpen(false)}>Home</NavLink>
+                    <NavLink to="/product" className="nav-links text-black hover:text-gray-600" onClick={() => setMenuOpen(false)}>Products</NavLink>
+                    <NavLink to="/about" className="nav-links text-black hover:text-gray-600" onClick={() => setMenuOpen(false)}>About Us</NavLink>
+                    <NavLink to="/faqs" className="nav-links text-black hover:text-gray-600" onClick={() => setMenuOpen(false)}>FAQ</NavLink>
+                    <NavLink to="/contact" className="nav-links text-black hover:text-gray-600" onClick={() => setMenuOpen(false)}>Contact</NavLink>
 
                     {/* Sign In button only in mobile menu */}
                     <div className="md:hidden">
