@@ -6,6 +6,8 @@ import Gallery from './Gallery'
 import DetailSection from './DetailSection'
 import Footer from '../../components/Footer'
 import ContactSection from './ContactSection'
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const index = () => {
     return (

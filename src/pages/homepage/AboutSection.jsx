@@ -4,12 +4,9 @@ import AboutImage from '../../assets/image/about.png';
 const AboutSection = () => {
     return (
         <section className="bg-[#EAEEEA] sm:flex">
-            {/* Image Section */}
             <div className='sm:w-1/2 w-full'>
                 <img src={AboutImage} alt="About Us" className='w-full h-full object-cover' />
             </div>
-
-            {/* Text Section */}
             <div className="w-full sm:w-1/2 p-[clamp(2rem,5vw,4rem)]">
                 <div className="flex flex-row sm:flex-row items-center">
                     <p className="text-[clamp(18px,2vw,20px)] md:w-[123px] sm:w-[160px] w-[123px] font-semibold text-[#85878B]">

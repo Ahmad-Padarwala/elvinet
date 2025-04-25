@@ -20,7 +20,7 @@ const HeroSection = () => {
                 </div>
 
                 <div>
-                    <h3 className='font-[400] text-[clamp(18px,4vw,25px)]'>Lorem ipsum <br /> dolor sit amet,</h3>
+                    <h3 className='font-[400] text-[clamp(18px,4vw,25px)] uppercase'>Lorem ipsum <br /> dolor sit amet,</h3>
                     <h2 className='font-[500] text-[clamp(30px,4vw,45px)] text-[#2C2E35]'>CONSECTETUR</h2>
                 </div>
             </div>
