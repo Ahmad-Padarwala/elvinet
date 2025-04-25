@@ -26,7 +26,7 @@ body {
     url("./assets/image/contactimage.png");
   background-position: right center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .input-shadow {

@@ -76,7 +76,7 @@ const ContactSection = () => {
 
                         <button
                             type="submit"
-                            className="sm:col-span-2 bg-white text-[14px] text-[#D0AA87] py-2 px-6 rounded-full hover:shadow-lg transition"
+                            className="bg-white text-[14px] text-[#D0AA87] py-2 px-6 w-max rounded-full hover:shadow-lg transition"
                         >
                             BECOME A DEALER
                         </button>

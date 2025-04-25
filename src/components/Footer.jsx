@@ -8,7 +8,7 @@ const Footer = () => {
             <div className='border-[8px] text-white border-black '>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-[clamp(20px,4vw,50px)]'>
                     <div>
-                        <h2 className='text-white text-xl mb-3 font-bold'>Switches and Accessories</h2>
+                        <h2 className='text-white text-lg mb-3 font-bold'>Switches and Accessories</h2>
                         <ul className="space-y-3 text-sm text-gray-300">
                             <li>Switches</li>
                             <li>Cober Plates</li>
@@ -19,7 +19,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 className='text-white text-xl mb-3 font-bold'>LED Lighting</h2>
+                        <h2 className='text-white text-lg mb-3 font-bold'>LED Lighting</h2>
                         <ul className="space-y-3 text-sm text-gray-300">
                             <li>LED Tube Lights</li>
                             <li>Wall Lights</li>
@@ -30,7 +30,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 className='text-white text-xl mb-3 font-bold'>Fans</h2>
+                        <h2 className='text-white text-lg mb-3 font-bold'>Fans</h2>
                         <ul className="space-y-3 text-sm text-gray-300">
                             <li>Ceiling Fans</li>
                             <li>Wall Fans</li>
@@ -41,7 +41,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 className='text-white text-xl mb-3 font-bold'>Home Application</h2>
+                        <h2 className='text-white text-lg mb-3 font-bold'>Home Application</h2>
                         <ul className="space-y-3 text-sm text-gray-300">
                             <li>Wired Solutuion</li>
                             <li>Retro fit Solution</li>
@@ -56,7 +56,7 @@ const Footer = () => {
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-[clamp(20px,4vw,50px)] pt-0'>
                     <div>
-                        <h2 className='text-white text-xl mb-3 font-bold'>Company</h2>
+                        <h2 className='text-white text-lg mb-3 font-bold'>Company</h2>
                         <ul className="space-y-3 text-sm text-gray-300">
                             <li>About Us</li>
                             <li>Clientele</li>
@@ -64,7 +64,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 className='text-white text-xl mb-3 font-bold'>Careers</h2>
+                        <h2 className='text-white text-lg mb-3 font-bold'>Careers</h2>
                         <ul className="space-y-3 text-sm text-gray-300">
                             <li>Store Locator</li>
                             <li>Catalogues</li>
@@ -73,7 +73,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <div>
-                            <h2 className='text-white text-xl mb-3 font-bold'>Contact Us</h2>
+                            <h2 className='text-white text-lg mb-3 font-bold'>Contact Us</h2>
                             <ul className="space-y-3 text-sm text-gray-300">
                                 <li>info@gmmodular.com</li>
                             </ul>

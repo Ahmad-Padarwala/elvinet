@@ -44,7 +44,7 @@ const DetailSection = () => {
                     <div className='sm:w-1/2 flex flex-col sm:items-end'>
                         <div className='w-fit '>
                             <img src={detailsectionlogo} alt="Logo" className="w-[140px] sm:w-[100px] md:w-[130px] mx-auto sm:mx-0" />
-                            <p className='text-[10px] text-[#9A9B9F] italic font-[700] mt-2'>
+                            <p className='text-[10px] text-[#9A9B9F] italic font-[700] mt-1'>
                                 ELECTRICAL ACCESSORIES
                             </p>
                         </div>

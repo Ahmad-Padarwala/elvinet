@@ -38,7 +38,7 @@ const Gallery = () => {
 
             {/* Block 3 */}
             <div className='py-4 flex flex-col justify-between items-center overflow-hidden bg-[#FDECEA]'>
-                <div className='w-fit place-content-center'>
+                <div className='w-fit place-content-center z-10'>
                     <img src={Whitelogo} alt="Logo" className="mx-auto" />
                     <p className='text-[6px] text-white font-[700] mt-1'>ELECTRICAL ACCESSORIES</p>
                 </div>
